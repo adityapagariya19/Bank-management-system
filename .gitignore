@@ -1,0 +1,30 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+application-local.properties
+
+# Java / Maven
+**/target/
+*.class
+*.jar
+*.log
+
+# Node / React
+**/node_modules/
+**/dist/
+**/.vite/
+
+# Local database backups
+*.sql
+*.sql.gz
+*.dump
+*.bak
+
+# IDE and OS
+.DS_Store
+.idea/
+.vscode/
