@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://meridian-backend-blqs.onrender.com/api/:path*"
+    }
+  ]
+}
